@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.tobar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: rgb(18, 19, 19);
+    font-size: x-large;
+    overflow: hidden;
+    color: white;
+}
+.logo{
+    color: red;
+    font-weight: bold;
+   
+}
+.toimage{
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image1{
+    height: 300px;
+    width:100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.totitle{
+    z-index: 20;
+    position: absolute;
+    color: rgb(29, 25, 25);
+    text-shadow: 3px 3px rgba(17, 15, 15, 0.289);
+    font-weight: bold;
+   background-color: rgba(0, 255, 255, 0.259);
+   padding: 50px;
+   border:3px darkorange dashed;
+}
+.contact{
+   display: flex;
+   flex-direction:row;
+   justify-content: space-between;
+   gap: 40px;
+   margin-top: 50px;
+   font-size: 30px;
+
+}
+a{
+    text-decoration: none;
+}
+.contact a:hover{
+    background-color: rgb(45, 233, 45);
+}
+.phone_div , .whatsapp_div{
+    text-align: center;
+   
+}
+.phone_div .call_us ,.whatsaap_div .whatsapp{
+   background-color:rgb(160, 254, 19);
+   padding: 10px 40px;
+   border-radius: 20px;
+   box-shadow: 0px 0px 10px rgb(50, 49, 49);
+}
+.call_us2{
+    color: brown;
+    position: fixed;
+    left: 80%;
+    top:500px;
+    z-index: 1000;
+   
+}
+.call_us2 img{
+    width: 60px;
+    height:60px;
+    border-radius: 50%;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.374);
+}
+.artical p{
+    margin-top: 10px;
+}
+.describtion{
+    margin: 30px 0  ;
+}
+.describtion h2{
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(131, 39, 39);
+    background-color: rgba(100, 148, 237, 0.241);
+    margin-bottom: 20px;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.345);
+    border: 2px dashed red;
+}
+.p1 ,img{
+    width: 500px;
+    height: 300px;
+}
+section{
+    width: 60%;
+   margin-right: 20%;
+}
+.p1,h1{
+    margin: 10px;
+    padding: 10px;
+    font-size: 35px;
+   
+}
+p{
+    font-size: 25px;
+    margin-right: 20px;
+}
+span{
+    color: rgb(51, 216, 51);
+}
+footer{
+   padding: 1px;
+    background-color: rgba(0, 0, 0, 0.481);
+}
+@media (min-width:370px ) {
+    section{
+        width: 100%;
+        margin-right: 0;
+    }
+    .p1 ,img{
+        width: 350px;
+        height: 200px;
+       
+    }
+    .contact{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
